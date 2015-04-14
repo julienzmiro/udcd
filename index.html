@@ -8,14 +8,15 @@
 <link href='css/styles.css' rel='stylesheet' type='text/css'>
 <div class="home">
 	<article>
-		<header>
+
+		<header id="mainHeader">
       <div class="row">
         <div id="pageIco">
           <img src="img/ico-design.png" />
         </div>
-        <h1>UDCD</h1>
-        <h2>A design decisions making framework in 4 simple steps:<br>
-        Understand, Diverge, Converge, and Document.</h2>
+        <h2>UDCD</h2>
+        <p>A design decisions making framework in 4 simple steps:<br>
+        Understand, Diverge, Converge, and Document.</p>
         <p class="quote">"Without a practice, you’re just doing design — a short-term activity. But when you practice design, you’re focusing on long-term sustainable success."<br/><span>Verne Ho</span></p>
       </div>
     </header>
@@ -27,13 +28,13 @@
 					<li><strong>Relevant</strong> : Decisions are focused on fulfilling the first use case</li>
 					<li><strong>Intentional</strong> : Decisions are made on purpose</li>
 					<li><strong>Conscious</strong> : Decisions are made with "the whole" and "the next" in mind</li>
-					<li><strong>Opportunistic</strong> : Decisions leverage all the opportunities to convey meaning (animations, urls, tab title,...)</li>
+					<li><strong>Opportunistic</strong> : Decisions leverage all the opportunities to convey meaning</li>
 					<li><strong>Audacious</strong> : Decisions diverge from existing patterns when it makes sense</li>
 				</ul>
 			</p>
 			<p>The practice is meant to guide design decision, not to constraint it.<br/>
 			It helps to start in the good direction, and to keep in mind important parts of the design journey.</p>
-			<p>We defined 4 steps driven by their main purposes :
+			<p>We define 4 steps driven by their main purposes :
 				<ul>
 					<li><strong>Understand</strong> : Know the users, the product, the problem and the context.</li>
           <li><strong>Diverge</strong> : Explore a broad range of solutions.</li>
@@ -41,13 +42,11 @@
           <li><strong>Document</strong> : Review, and save important decisions.</li>
 				</ul>
 			</p>
-			<!-- <p>For each step, we'll state clear goals, and provide some tools and some heuristics to help you to assess your success.<br>
-			In many other design frameworks, there is a dedicated "test" step. Here, the idea is to <strong>test decisions and assumptions at each step</strong>, and sometimes even many times in each step.</p> -->
-			<p> For each step we'll provide clear goals, and some heuristics to assess the success.</p>
-			<p>In most of the design frameworks, there is a dedicated "test" step. Here, the idea is to <strong>test decisions and assumptions at each step</strong>, and sometimes even many times at each step.</p>
-			<p>This is <strong>an iterative process</strong>. Once you learned from your previous attempts, you can try to understand, diverge, converge and learn again.<br>
+			<p> For each step we'll provide clear goals, and some heuristics to assess the success.<br>
+			In most of the design frameworks, there is a dedicated "test" step. Here, the idea is to <strong>test decisions and assumptions at each step</strong>, and sometimes even many times at each step.</p>
+			<p>This is <strong>an iterative process</strong>. Once you learned from your previous attempts, you can try to understand, diverge, converge and document again.<br>
 			This is also <strong>a recursive process</strong>. You can apply the whole process to smaller parts of your current cycle (for instance, design decisions about error handling inside a bigger process of designing an onboarding).</p>
-			<p>As in many activities (painting, music,...), it's indeed easier to start with the big picture before diving into details. Start by using this framework to define the main direction of your design, and then stick with it when you'll have to work on smaller parts.<br>
+			<p>As in many activities (painting, music,...), it's indeed easier to start with the big picture before diving into details. Start by using this framework to define the main directions of your design, and then stick with them when you'll have to work on smaller parts.<br>
 			Benefits of following a clear vision are often higher in the long term than diverging for micro-decisions, even when they seem better when isolated.</p>
 		</div>
 
@@ -61,25 +60,24 @@
 			</div>
 		</header>
 		<div class="row">
-			<p>It's a common mistake to try to solve a problem that has not been defined yet.<br/>
+			<p>It's a common mistake to try to solve a problem that has not been defined yet.<br>
 			Understanding should always be your first concern. By building a solid knowledge of the problem, you create the best context to find a solution more efficiently.</p>
+
 			<h3>Goals</h3>
 			<ul class="goalsList">
-				<li><strong>Define business' goals</strong><br>Brief, Stakeholders' interviews</li>
-				<li><strong>Understand the context and the constraints</strong><br>Brief, Benchmark</li>
-				<li><strong>Know the product</strong><br>Existing documentation</li>
-				<li><strong>Know the users</strong><br>Personas, Jobs To Be Done, Users' interviews</li>
+				<li><strong>Define business' goals</strong><br>Brief, Stakeholders' interviews,...</li>
+				<li><strong>Understand the context and the constraints</strong><br>Brief, Benchmark,...</li>
+				<li><strong>Know the product</strong><br>Existing documentation,...</li>
+				<li><strong>Know the users</strong><br>Personas, Jobs To Be Done, Users' interviews,...</li>
 			</ul>
 
 			<h3>Heuristics</h3>
 			<ul class="heuristicsList">
 				<li><strong>I know what I'm trying to achieve</strong><br>Can you tell someone what problem you're trying to solve ? Is it clear for her ?</li>
 				<li><strong>I know how I will measure success</strong><br>Do you agree with stakeholders on the metrics to measure success ?</li>
-				<!-- <li><strong>I'm comfortable with the users needs that I will try to address, with users' behaviours frustrations and motivations, and with the situations or the events that will motivate them to use my solution</strong> - Have you tried to talk to real users to put your assumptions about their needs and behaviours in front of their current stories and experience ? Have you tried to observe current usages ? At the end of this design work, will ou be able to tell if a user has achieve its goals ?</li> -->
 				<li><strong>I'm comfortable with the users(their behaviours, frustrations and motivations; the situations or the events that will motivate them to use my solution;...)</strong><br>Have you tried to talk to real users to put your assumptions in front of them ? Have you tried to observe current usages ? At the end of this design work, will ou be able to tell if a user has achieve its goals ?</li>
-				<li><strong>I'm comfortable with the constraints</strong><br>Is there a clear deadline shared with the stakeholders ? Do you know what parts of the product you will be able to work on (scope) ? Are you able to explain the technical constraints to a tech guy ?</li>
+				<li><strong>I'm comfortable with the constraints</strong><br>Is there a clear deadline shared with the stakeholders ? Do you know what parts of the product you will be able to work on (scope) ? Are you able to explain the technical constraints ?</li>
 				<li><strong>I think that what I'm trying to achieve is realistic given those constraints</strong><br>Can you share your goal and the constraints with other designers or stakeholders ? Do they agree with you on how realistic this is ?</li>
-				<!-- <li><strong>I identified important or risky parts of the project</strong> - Can you ask other designers or stakeholder about parts of the project that they find important or risky and try to see if you missed something, or if you noticed something irrelevant ?</li> -->
 				<li><strong>I have all the informations and documentation that I need to work</strong><br>Do you think that you'll be able to put your design decision in front of existing design decisions (guidelines, patterns,...) ?</li>
 			</ul>
 		</div>
@@ -94,24 +92,24 @@
 			</div>
 		</header>
 		<div class="row">
-			<p>By building a better knowledge, you probably already have a first idea of how you'll achieve your design.<br/>
+			<p>By building a better knowledge, you probably already have a first idea on how you'll achieve your design.<br/>
 			That's fine, but before diving more deeply into this idea, you should now take some time to consider other paths to follow.</p>
-			<p>It's important to go beyond all the common boundaries : go beyond your first idea, go beyond "the usual canvas" (do not design screens, design systems), go beyond standards and conventions, go beyond the initial brief, go beyond technical constraints (pretend it's magic).<br/>
+			<p>It's important to go beyond all the common boundaries : go beyond your first idea, go beyond "the usual canvas" (do not design screens, design systems), go beyond standards and conventions, go beyond the initial brief, go beyond technical constraints.<br/>
 			<strong>Everything should be questionable at this step.</strong></p>
 			<p>Explore, try, test, change, twist, skew... <strong>your goal is to find many approaches to your problem in order to reveal opportunities that we'll leverage later on the process.</strong></p>
 
 			<h3>Goals</h3>
 			<ul class="goalsList">
-				<li><strong>Explore as many solutions as possible</strong><br>Behavorial triggers (zurb.com/triggers, coglode.com,...); Ideas tree ("how" to narrow a decision, and "why" to broader the point of view and reveal new opportunities)</li>
-				<li><strong>Challenge patterns, standards and conventions</strong><br>The "Why" in the ideas tree</li>
-				<li><strong>Ignore the constraints</strong><br>Pretend it's magic</li>
+				<li><strong>Explore as many solutions as possible</strong><br>Behavorial triggers (<a href="http://www.zurb.com/triggers">zurb's triggers</a>, <a href="http://www.coglode.com">coglode</a>,...); Ideas tree ("how" to narrow a decision, and "why" to broader the point of view and reveal new opportunities),...</li>
+				<li><strong>Challenge patterns, standards and conventions</strong><br>The "Why" in the ideas tree,...</li>
+				<li><strong>Ignore the constraints</strong><br>Pretend it's magic,...</li>
 			</ul>
 
 			<h3>Heuristics</h3>
 			<ul class="heuristicsList">
 				<li><strong>I've been able to go beyond my first idea</strong><br>Do you have at least two proposals ?</li>
 				<li><strong>I've been able to explore all my ideas, even very quickly</strong><br>Can you show your ideas to someone... does she have any other idea ? Do you need more time ?</li>
-				<li><strong>I'm confident about why I use the patterns that I use</strong><br>Have you been able to challenge even the most basic decisions ?</li>
+				<li><strong>I'm confident about why I follow the patterns that I use</strong><br>Have you been able to challenge even the most basic decisions ?</li>
 			</ul>
 		</div>
 
@@ -132,10 +130,10 @@
 
 			<h3>Goals</h3>
 			<ul class="goalsList">
-				<li><strong>Discard irrelevant ideas</strong><br>"How does this help ?", Reintroduce constraints</li>
-				<li><strong>Test and "manipulate" interesting proposals</strong><br>Prototypes (paper, interactive,...)</li>
-				<li><strong>Select one proposal</strong><br>Put the feedback and all the knowledge acquired in front of the constraints, the vision, and the legacy</li>
-				<li><strong>Fine-tune your solution</strong><br>Execution of visual, interaction, and copywriting, Reduction (What's the First Use Case ?)</li>
+				<li><strong>Discard irrelevant ideas</strong><br>"How does this help ?", Reintroduce constraints,...</li>
+				<li><strong>Test and "manipulate" interesting proposals</strong><br>Prototypes (paper, interactive,...),...</li>
+				<li><strong>Select one proposal</strong><br>Put the feedback and all the knowledge acquired in front of the constraints, the vision, and the legacy,...</li>
+				<li><strong>Fine-tune your solution</strong><br>Execution of visual, interaction, and copywriting, Reduction (What's the First Use Case ?),...</li>
 			</ul>
 
 			<h3>Heuristics</h3>
@@ -143,7 +141,7 @@
 				<li><strong>I'm confident about my solution</strong><br>Are you able to explain the main design decisions behind it ?</li>
 				<li><strong>I think that my solution will properly address my users' needs</strong><br>Have you tested your final solution with real users ?</li>
 				<li><strong>I think that my solution will reach our business goals</strong><br>Have you shared your solution with stakeholders ? Do they understand your design decisions ? Are they confident ?</li>
-				<li><strong>I will deliver an artifact that communicate my design decisions efficiently</strong><br>Have you shared your solution with people who will build it ? Do they understand everythhing ? Can you ask them to mimic a user journey to see if you have been clear on every point ?</li>
+				<li><strong>I will deliver an artifact that communicate my design decisions efficiently</strong><br>Have you shared your solution with people who will build it ? Do they understand everything ?</li>
 				<li><strong>I'm sure I can't remove anything from my solution</strong><br>Have you tried to remove things (components, texts, steps, interactions, features,...) ? Does it still work properly ? Is it less efficient ?</li>
 				<li><strong>I'm sure that this solution is in line with existing design decisions (when I don't have a good reason to diverge)</strong><br>Have you put this solution in front of existing documentation (guidelines, patterns,...) ?</li>
 			</ul>
@@ -166,9 +164,9 @@
 
 			<h3>Goals</h3>
 			<ul class="goalsList">
-				<li><strong>Save important design decisions</strong><br>Design rationale</li>
-				<li><strong>Enhance existing documentation</strong><br>Visual and copy guidelines, Interactions patterns</li>
-				<li><strong>Open the doors for next steps</strong><br>List your doubts, new ideas, potential improvements in the Design rationale</li>
+				<li><strong>Save important design decisions</strong><br>Design rationale,...</li>
+				<li><strong>Enhance existing documentation</strong><br>Visual and copy guidelines, Interactions patterns,...</li>
+				<li><strong>Open the doors for next steps</strong><br>List your doubts, new ideas, potential improvements in the Design rationale,...</li>
 			</ul>
 
 			<h3>Heuristics</h3>

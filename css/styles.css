@@ -5,19 +5,15 @@ a:hover {
 	text-decoration: none;
 }
 p {
-	margin: 5rem 0 2rem;
+	margin: 3rem 0 2rem;
 	line-height: 2.2;
 }
 li {
 	margin: .9rem 0;
-	line-height: 1.5;
+	line-height: 2.2;
 }
 #mainHeader {
-	height: 60px;
-	line-height: 60px;
-	background: #E73E3E;
-	padding: 0 30px;
-	font-family: 'Raleway', sans-serif;
+	margin-top: 0;
 }
 #mainFooter {
 	padding: 0 30px;
@@ -27,65 +23,18 @@ li {
 	margin-bottom: 15px;
 }
 h1 {
-	margin: 0;
-	padding: 0;
-}
-h1 a span {
-	display: none;
-}
-h1 a {
-	background: url("../img/qunbsmall-white.png") 0 50% no-repeat;
-	display: block;
-	height: 60px;
-	width: 300px;
-	padding-left: 83px;
-	font-size: 20px;
-	font-weight: normal;
-	color: white;
-	text-decoration: none;
-	float: left;
-}
-#mainHeader ul {
-	margin: 0;
-	padding: 0;
-	float: right;
-}
-#mainHeader li {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	display: inline;
-	color: white;
-}
-#mainHeader li a {
-	font-size: 18px;
-	font-weight: normal;
-	color: white;
-	text-decoration: none;
-	border-bottom: 1px solid transparent;
-}
-#mainHeader li a.current {
-	border-bottom: 1px dotted white;
-}
-#mainHeader li a:hover {
-	border-bottom: 1px solid white;
+
 }
 article {
 	padding-bottom: 90px;
 }
 article header {
-	/*height: 600px;*/
 	height: auto;
-	/*padding-bottom: 120px;*/
 	background: #333;
 	margin-bottom: 90px;
 	background: #E73E3E;
 	color: white;
 	margin-top: 180px;
-}
-#heroHeader {
-	padding-bottom: 120px;
-	margin-top: 0;
 }
 article header h2 {
 	margin: 0;
@@ -168,78 +117,6 @@ h3 ~ p {
 	margin-top: 15px;
 }
 
-.process article header {
-	background: #1678C0;
-	padding-bottom: 0;
-}
-.process #mainHeader {
-	background: #1678C0;
-}
-.process .btn {
-	background: #1678C0;
-}
-.process .btn:hover {
-	background: #2486CF;
-}
-.process a {
-	color: #1678C0;
-}
-.process .btn {
-	color: white;
-}
-.process h1 a {
-	color: white;
-}
-.process .linkList {
-	color: #1678C0;
-}
-
-.tools article header {
-	background: #eadc17;
-}
-.tools #mainHeader {
-	background: #eadc17;
-}
-.tools .btn {
-	background: #eadc17;
-}
-.tools .btn:hover {
-	background: #f8f070;
-}
-.tools a {
-	color: #eadc17;
-}
-.tools .btn {
-	color: white;
-}
-.tools h1 a {
-	color: white;
-}
-.tools .linkList {
-	color: #eadc17;
-}
-#toolsList {
-	list-style: none;
-}
-#toolsList .btn {
-	width: 32.3%;
-	margin: .5%;
-	float: left;
-	text-align: center;
-	background: #eee;
-	color: #999;
-	font-size: .9rem;
-	padding: 0 1rem;
-}
-#toolsList .btn:hover {
-	background: #ddd;
-}
-
-.toolPage article header {
-	height: auto;
-	padding-bottom: 90px;
-}
-
 nav {
 	margin-top: 120px;
 	text-align: center;
@@ -296,18 +173,6 @@ nav {
 		font-size: 14px;
 		line-height: 2;
 	}
-	#mainHeader {
-		height: 20px;
-		line-height: 20px;
-		padding: 10px 10px 0;
-	}
-	h1 a {
-		background: url("../img/qunbxsmall-white.png") 0 50% no-repeat;
-		height: 20px;
-		width: 210px;
-		font-size: 14px;
-		padding-left: 47px;
-	}
 	article header {
 		height: auto;
 		padding-bottom: 60px;
@@ -315,10 +180,6 @@ nav {
 	}
   article header h2 {
 		font-size: 45px;
-	}
-	#mainHeader li a,
-	#mainHeader li {
-		font-size: 14px;
 	}
 	article header .quote {
 		line-height: 1.6;
