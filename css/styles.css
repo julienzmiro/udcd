@@ -1,0 +1,339 @@
+a {
+	color: #E73E3E;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 5rem 0 2rem;
+	line-height: 2.2;
+}
+li {
+	margin: .9rem 0;
+	line-height: 1.5;
+}
+#mainHeader {
+	height: 60px;
+	line-height: 60px;
+	background: #E73E3E;
+	padding: 0 30px;
+	font-family: 'Raleway', sans-serif;
+}
+#mainFooter {
+	padding: 0 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: .9rem;
+	margin-bottom: 15px;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+}
+h1 a span {
+	display: none;
+}
+h1 a {
+	background: url("../img/qunbsmall-white.png") 0 50% no-repeat;
+	display: block;
+	height: 60px;
+	width: 300px;
+	padding-left: 83px;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	text-decoration: none;
+	float: left;
+}
+#mainHeader ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+#mainHeader li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline;
+	color: white;
+}
+#mainHeader li a {
+	font-size: 18px;
+	font-weight: normal;
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+}
+#mainHeader li a.current {
+	border-bottom: 1px dotted white;
+}
+#mainHeader li a:hover {
+	border-bottom: 1px solid white;
+}
+article {
+	padding-bottom: 90px;
+}
+article header {
+	/*height: 600px;*/
+	height: auto;
+	/*padding-bottom: 120px;*/
+	background: #333;
+	margin-bottom: 90px;
+	background: #E73E3E;
+	color: white;
+	margin-top: 180px;
+}
+#heroHeader {
+	padding-bottom: 120px;
+	margin-top: 0;
+}
+article header h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 90px;
+	line-height: 1.4;
+}
+article header .row {
+	padding-top: 90px;
+	text-align: center;
+	max-width: 900px;
+}
+article header .quote {
+	line-height: 1.6;
+	font-size: 16px;
+	margin: .3rem 0 0 0;
+}
+article header .quote span {
+	color: #eee;
+	color: rgba(255,255,255,.9);
+	font-style: italic;
+}
+.row {
+	width: 60%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.btn {
+	display: inline-block;
+	height: 55px;
+	line-height: 55px;
+	padding: 0 4rem;
+	text-decoration: none;
+	color: white;
+	background: #E73E3E;
+	border-radius: 3px;
+	transition: background 300ms;
+	width: 100%;
+	text-align: center;
+}
+.btn:hover {
+	background: #F05757;
+}
+#pageIco {
+	margin: 0 auto;
+	text-align: center;
+}
+.linkList {
+	color: #E73E3E;
+}
+.linkList a {
+	text-decoration: none;
+}
+.linkList a:hover {
+	text-decoration: underline;
+}
+.linkList.done,
+.process .linkList.done {
+	color: #222;
+}
+.linkList.done a {
+	color: #222;
+	text-decoration: none;
+}
+.linkList.done a:hover {
+	text-decoration: underline;
+}
+/*.linkList.done .current {
+	border-bottom: 1px dotted #222;
+}
+.linkList.done .current:hover {
+	border-bottom: none;
+}*/
+h3 {
+	margin: 90px 0 0 0;
+	text-align: center;
+	font-size: 30px;
+}
+h3 ~ p {
+	margin-top: 15px;
+}
+
+.process article header {
+	background: #1678C0;
+	padding-bottom: 0;
+}
+.process #mainHeader {
+	background: #1678C0;
+}
+.process .btn {
+	background: #1678C0;
+}
+.process .btn:hover {
+	background: #2486CF;
+}
+.process a {
+	color: #1678C0;
+}
+.process .btn {
+	color: white;
+}
+.process h1 a {
+	color: white;
+}
+.process .linkList {
+	color: #1678C0;
+}
+
+.tools article header {
+	background: #eadc17;
+}
+.tools #mainHeader {
+	background: #eadc17;
+}
+.tools .btn {
+	background: #eadc17;
+}
+.tools .btn:hover {
+	background: #f8f070;
+}
+.tools a {
+	color: #eadc17;
+}
+.tools .btn {
+	color: white;
+}
+.tools h1 a {
+	color: white;
+}
+.tools .linkList {
+	color: #eadc17;
+}
+#toolsList {
+	list-style: none;
+}
+#toolsList .btn {
+	width: 32.3%;
+	margin: .5%;
+	float: left;
+	text-align: center;
+	background: #eee;
+	color: #999;
+	font-size: .9rem;
+	padding: 0 1rem;
+}
+#toolsList .btn:hover {
+	background: #ddd;
+}
+
+.toolPage article header {
+	height: auto;
+	padding-bottom: 90px;
+}
+
+nav {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.goalContainer {
+	font-size: 26px;
+	padding: 45px 0;
+	background: rgba(0,0,0,.15);
+	margin-top: 120px;
+	font-family: 'Raleway', sans-serif;
+}
+.goalContainer .row,
+.goalContainer .row p {
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.goalContainer .row span{
+	opacity: .6;
+}
+
+
+#mainFooter div {
+	float: left;
+}
+#mainFooter small,
+#mainFooter span,
+#mainFooter a {
+	line-height: 1;
+}
+#mainFooter nav {
+	font-size: 80%;
+	float: right;
+	margin: 0;
+	padding-top: 1px;
+}
+
+@media all and (max-width: 599px) {
+	.row {
+		width: 90%;
+	}
+	.btn {
+		height: 35px;
+		line-height: 35px;
+		padding: 0 1.2rem;
+	}
+	.linkList,
+	nav .btn {
+		font-size: 12px;
+	}
+	body {
+		font-size: 14px;
+		line-height: 2;
+	}
+	#mainHeader {
+		height: 20px;
+		line-height: 20px;
+		padding: 10px 10px 0;
+	}
+	h1 a {
+		background: url("../img/qunbxsmall-white.png") 0 50% no-repeat;
+		height: 20px;
+		width: 210px;
+		font-size: 14px;
+		padding-left: 47px;
+	}
+	article header {
+		height: auto;
+		padding-bottom: 60px;
+		margin-bottom: 60px;
+	}
+  article header h2 {
+		font-size: 45px;
+	}
+	#mainHeader li a,
+	#mainHeader li {
+		font-size: 14px;
+	}
+	article header .quote {
+		line-height: 1.6;
+		font-size: 16px;
+		margin: 0;
+	}
+	#mainFooter {
+		font-size: .6rem;
+	}
+	.goalContainer {
+		font-size: 20px;
+		padding: 30px 0;
+		margin-top: 90px;
+	}
+	.goalContainer p {
+		line-height: 1.2;
+	}
+}
