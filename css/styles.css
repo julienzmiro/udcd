@@ -1,18 +1,48 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  color: #222;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  text-rendering: optimizeLegibility;
+}
+h1,
+h2,
+.catch {
+  font-family: 'Oswald', sans-serif;
+}
+br {
+  clear: both;
+}
+
+
 a {
-	color: #E73E3E;
+	color: #43C7C6;
 }
 a:hover {
 	text-decoration: none;
 }
 p {
 	margin: 3rem 0 2rem;
-	line-height: 2.2;
+	line-height: 2;
 }
 li {
-	margin: .9rem 0;
-	line-height: 2.2;
+	margin: .6rem 0;
+	line-height: 2;
 }
 #mainHeader {
+	margin-top: 0;
+	/*background: #43C7C6;*/
+}
+.catch {
+	font-size: 1.6rem;
 	margin-top: 0;
 }
 #mainFooter {
@@ -30,11 +60,11 @@ article {
 }
 article header {
 	height: auto;
-	background: #333;
 	margin-bottom: 90px;
-	background: #E73E3E;
 	color: white;
 	margin-top: 180px;
+	background: #43C7C6;
+	padding-bottom: 90px;
 }
 article header h2 {
 	margin: 0;
@@ -47,14 +77,10 @@ article header .row {
 	text-align: center;
 	max-width: 900px;
 }
-article header .quote {
-	line-height: 1.6;
-	font-size: 16px;
-	margin: .3rem 0 0 0;
-}
+/*article header .quote {
+}*/
 article header .quote span {
-	color: #eee;
-	color: rgba(255,255,255,.9);
+	color: rgba(255,255,255,.6);
 	font-style: italic;
 }
 .row {
