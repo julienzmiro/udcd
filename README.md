@@ -1,2 +1,3 @@
 # udcd
-Understand, Diverge, Converge, Document - Design decision making framework
+A design decision making framework in 4 steps:  
+Understand, Diverge, Converge, Document  

@@ -21,7 +21,9 @@ h2,
 br {
   clear: both;
 }
-
+h4 {
+  margin: 0;
+}
 
 a {
 	color: #43C7C6;
@@ -39,19 +41,11 @@ li {
 }
 #mainHeader {
 	margin-top: 0;
-	/*background: #43C7C6;*/
 }
 .catch {
 	font-size: 1.6rem;
 	line-height: 1.6;
 	margin-top: 0;
-}
-#mainFooter {
-	padding: 0 30px;
-	height: 30px;
-	line-height: 30px;
-	font-size: .9rem;
-	margin-bottom: 15px;
 }
 h1 {
 
@@ -129,12 +123,6 @@ article header .quote span {
 .linkList.done a:hover {
 	text-decoration: underline;
 }
-/*.linkList.done .current {
-	border-bottom: 1px dotted #222;
-}
-.linkList.done .current:hover {
-	border-bottom: none;
-}*/
 h3 {
 	margin: 90px 0 0 0;
 	text-align: center;
@@ -167,23 +155,27 @@ nav {
 	opacity: .6;
 }
 
-
-#mainFooter div {
-	float: left;
+#mainFooter {
+  width: 60%;
+  max-width: 760px;
+	line-height: 30px;
+	font-size: .9rem;
+	margin: 30px auto;
 }
 #mainFooter small,
 #mainFooter span,
 #mainFooter a {
 	line-height: 1;
 }
-#mainFooter nav {
-	font-size: 80%;
-	float: right;
-	margin: 0;
-	padding-top: 1px;
+#mainFooter p {
+  margin: 0 0 15px;
 }
 
 @media all and (max-width: 599px) {
+  .catch {
+  	font-size: 1.1rem;
+  	line-height: 1.5;
+  }
 	.row {
 		width: 90%;
 	}
