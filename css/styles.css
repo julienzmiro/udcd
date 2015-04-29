@@ -80,6 +80,7 @@ article header h2 {
 	padding: 0;
 	font-size: 90px;
 	line-height: 1.4;
+  text-shadow: 2px 3px rgba(19, 87, 119, .45);
 }
 article header .row {
 	padding-top: 90px;
