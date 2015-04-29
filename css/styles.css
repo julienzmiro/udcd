@@ -53,6 +53,7 @@ h1 {
 article {
 	padding-bottom: 90px;
 }
+
 article header {
 	height: auto;
 	margin-bottom: 90px;
@@ -60,6 +61,19 @@ article header {
 	margin-top: 180px;
 	background: #43C7C6;
 	padding-bottom: 90px;
+  position: relative;
+  overflow: hidden;
+}
+.heroBan canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .6;
+}
+article header > .row {
+  z-index: 2;
+  position: relative;
 }
 article header h2 {
 	margin: 0;
